@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Chakra+Petch:wght@400;500;600;700&display=swap');
+
+@import "tailwindcss";
+
+:root {
+    font-family: "Archivo", sans-serif;
+    background: #f7f7fa;
+    color: #17182a;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background: #f7f7fa;
+}
+
+body {
+    margin: 0;
+    min-width: 320px;
+    min-height: 100vh;
+    /* background: #f7f7fa; */
+    background-image: url(./assets/main_bg.png) no-repeat;
+    background-size: cover;
+}
+
+button,
+input,
+textarea,
+select {
+    font: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default;
+}
+
+.font-chakra {
+    font-family: "Chakra Petch", sans-serif;
+}
+
+.font-archivo {
+    font-family: "Archivo", sans-serif;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #d7d8e1;
+    border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #bfc0cb;
+}
